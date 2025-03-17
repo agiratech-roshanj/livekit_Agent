@@ -6,3 +6,5 @@ livekit-plugins-silero>=0.7.5
 livekit-plugins-rag>=0.2.4
 python-dotenv~=1.0
 aiofile~=3.8.8
+flask= 3.1.0
+flask==5.0.1
