@@ -1,7 +1,5 @@
-<<<<<<< HEAD
 # livekit_Agent
 livekit voice agent pipeline
-=======
 # Voice Assistant Examples
 
 We have a few examples that shows the various ways of using using the VoiceAssistant class:
@@ -29,11 +27,12 @@ Instructions for running the two agents are identical, the following steps will 
 ### Set environment variables:
 
 ```bash
-export LIVEKIT_URL=<your LiveKit server URL>
-export LIVEKIT_API_KEY=<your API Key>
-export LIVEKIT_API_SECRET=<your API Secret>
-export DEEPGRAM_API_KEY=<your Deepgram API key>
-export OPENAI_API_KEY=<your OpenAI API key>
+export LIVEKIT_URL=<LiveKit server URL>
+export LIVEKIT_API_KEY=<API Key>
+export LIVEKIT_API_SECRET=<API Secret>
+export DEEPGRAM_API_KEY=<Deepgram API key>
+export GROQ_API_KEY=<API key>
+export CARTESIA_API_KEY=<API_KEY>
 ```
 
 ### Install requirments:
@@ -49,5 +48,3 @@ python minimal_assistant.py download-files
 
 ### Test with a LiveKit frontend:
 
-We've built [Agents Playground](https://agents-playground.livekit.io) so you don't have to build your own frontend while you iterate on your agent.
->>>>>>> 58d776d (Flask API creation for TTS validation, validate-audio-length API added, Groq API added for LLM, Cartesia API added for voice generation)
